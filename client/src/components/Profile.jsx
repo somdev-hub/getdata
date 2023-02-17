@@ -9,7 +9,7 @@ const Profile = () => {
   const [info, setInfoData] = useState({});
   const fetchInfo = async () => {
     // const email = localStorage.getItem("email");
-    const url = `http://localhost:5000/api/something@gmail.com`;
+    const url = `https://get-data-backend.onrender.com/api/something@gmail.com`;
     await axios.get(url).then((res) => {
       setInfoData((info) => ({
         ...info,
