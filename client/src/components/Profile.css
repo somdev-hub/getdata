@@ -1,0 +1,152 @@
+.profile-container {
+  width: 100%;
+  /* margin-left: 5%; */
+}
+
+.your-profile {
+  font-size: 1.3rem;
+  margin-top: 2%;
+}
+
+.profile-info-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile-pic {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  height: 18rem;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.profile-pic img {
+  width: 9rem;
+}
+
+.sic-regd h2,
+.sic-regd p {
+  margin: 0;
+}
+
+.sic-regd p {
+  font-weight: 500;
+  color: #3c3b37;
+}
+
+.main-info {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 75%;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.profile-info-secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.data {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  margin-left: 5%;
+}
+
+.tuple1,
+.tuple2 {
+  display: flex;
+  gap: 2%;
+  width: 22rem;
+  height: 2rem;
+  align-items: center;
+}
+
+.tuple1 p:nth-child(1),
+.tuple2 p:nth-child(1) {
+  font-weight: 500;
+  margin: 0;
+  font-size: 18px;
+}
+.tuple1 p:nth-child(2),
+.tuple2 p:nth-child(2) {
+  font-size: 18px;
+  margin: 0;
+}
+
+.personal-info1,
+.personal-info2 {
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  width: 48.5%;
+  height: 15rem;
+}
+
+.profile-info-heading {
+  background: #ffffff;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.12);
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.personal-content {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.profile-info-content {
+  display: flex;
+  justify-content: space-around;
+  height: 12rem;
+}
+
+.personal-content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.personal-content p:nth-child(1) {
+  font-weight: 500;
+}
+
+.personal-info2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personal-parameters,
+.colon,
+.values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.personal-parameters p {
+  font-weight: 500;
+  font-size: 18px;
+  margin: 0;
+}
+
+.colon p,
+.values p {
+  font-size: 18px;
+  margin: 0;
+}
